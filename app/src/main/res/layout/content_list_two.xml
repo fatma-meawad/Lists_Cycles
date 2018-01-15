@@ -12,9 +12,20 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.fatma.lab2.ListTwoActivity"
     tools:showIn="@layout/activity_list_two">
+
+
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display" />
+
     <ListView
         android:id="@+id/list"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/buttonstart">
+
     </ListView>
 </RelativeLayout>

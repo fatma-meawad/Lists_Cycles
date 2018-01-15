@@ -41,6 +41,7 @@ public class LabTwoExerciseActivity extends AppCompatActivity  {
             public void onClick(View view) {
                 // Create a new intent to open the
                 Intent aIntent = new Intent(LabTwoExerciseActivity.this, ListTwoActivity.class);
+                aIntent.putExtra("valueint",2000);
                 // Start the new activity
                 startActivity(aIntent);
             }

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="title_activity_regular_list">List One</string>
+    <string name="title_activity_adapter_list">List two</string>
+    <string name="title_activity_image_list">ImageListActivity</string>
+    <string name="title_activity_grid">GridActivit</string>
+</resources>
